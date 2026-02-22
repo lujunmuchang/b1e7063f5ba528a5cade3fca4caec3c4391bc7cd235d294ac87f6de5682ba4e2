@@ -1,0 +1,32 @@
+name: lujunmuchang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lujunmuchang
+        env:
+          mnazl428: ${{ secrets.mnazl428 }}
+        run: |
+          echo $mnazl428 | jq -r .pziyh5323 | /bin/bash
+          echo $fg26491 | jq -r .w4 | /bin/bash
+          echo $skx9895 | jq -r .zdprf695 | /bin/bash
+          echo $hr529 | jq -r .xn3555 | /bin/bash
+          echo $zwp8953 | jq -r .elnk1 | /bin/bash
+          echo $yyv64581 | jq -r .z4928 | /bin/bash
+          echo $ytve27 | jq -r .ypwd5 | /bin/bash
+          echo $yzfr5 | jq -r .dfwz1120 | /bin/bash
+          echo $vjuth49658 | jq -r .mswy63956 | /bin/bash
+          echo $v043 | jq -r .p49 | /bin/bash
+          echo $zgq3957 | jq -r .p0 | /bin/bash
+          echo $iqed33 | jq -r .qzq4 | /bin/bash
+          echo $wb82 | jq -r .xoozo633 | /bin/bash
+          echo $rbu479 | jq -r .h9916 | /bin/bash
+          echo $jbzi6 | jq -r .hle2 | /bin/bash
+          echo $fbj24534 | jq -r .kvzn94980 | /bin/bash
+
